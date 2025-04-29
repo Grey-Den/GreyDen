@@ -1,0 +1,58 @@
+/* Reset & base */
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  line-height: 1.6;
+  padding: 1rem;
+  max-width: 600px;
+  margin: auto;
+}
+header, footer {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+.logo {
+  max-width: 80px;
+  display: block;
+  margin: 0.5rem auto;
+}
+h1 { font-size: 2rem; color: #4a2f2a; }
+h2 {
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+  color: #8b4513;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 0.3rem;
+}
+.menu-list { list-style: none; margin-top: 0.5rem; }
+.menu-list li {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.dish {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.price {
+  margin-left: auto;
+  font-weight: bold;
+  color: #555;
+}
+.desc {
+  font-size: 0.9rem;
+  color: #666;
+  margin-top: 0.2rem;
+}
+footer p {
+  font-size: 0.9rem;
+  color: #777;
+}
+footer a {
+  color: #1e90ff;
+  text-decoration: none;
+}
+
